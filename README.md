@@ -14,6 +14,9 @@ A modern, responsive dashboard interface for a grocery and fresh categories stor
 - **CSS3** (Flexbox, CSS Grid, Custom Attributes, Media Queries)
 - **FontAwesome** (Icons)
 - **Google Fonts** (Cairo)
+  
+## 🚀 Live Demo
+(https://mohamedalbasiony.github.io/Food-landing-page/)
 
 ## 👤 Author
 - **Mohamed Albadiony**
