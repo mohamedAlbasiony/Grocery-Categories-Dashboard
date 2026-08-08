@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Categories Dashboard</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">  
+</head>
+<body>
+
+    <!-- Start Landing Page / Dashboard -->
+    <div class="landing-page">
+        <div class="container">
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="logo">
+                    <img src="image/logo.png" alt="Logo" width="40">
+                </div>
+                <h2>Categories</h2>
+                <ul>
+                    <li>Fruits & Vegetables</li>
+                    <li>Breakfast</li>
+                    <li>Beverages</li>
+                    <li>Meat & Fish</li>
+                    <li>Snacks</li>
+                    <li>Dairy</li>
+                    <li>Frozen & Canned</li>
+                    <li>Bread & Bakery</li>
+                    <li>Eggs</li>
+                </ul>
+            </aside>
+
+            <!-- Main Content Box -->
+            <main class="box">
+
+                <!-- Header -->
+                <header>
+                    <div class="search-box">
+                        <i class="fa-solid fa-magnifying-glass icon-search"></i>
+                        <input type="text" placeholder="Search here...">
+                        <button type="submit">Search</button>
+                    </div>
+
+                    <div class="user-actions">
+                        <i class="fa-solid fa-shield-heart"></i>
+                        <div class="active-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <img src="image/mo.jpg" alt="User Avatar" class="user-avatar">
+                        
+                        <!-- Toggle menu icon for mobile view -->
+                        <div class="toggle-menu">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                    </div>
+                </header>
+
+                <!-- Banners / Promos -->
+                <div class="landing-box">
+                    <div class="div-vegt">
+                        <div class="box-vegt">
+                            <div class="text">
+                                <span>35% off for 2 hours</span>
+                                <h3>Fresh Vegetables</h3>
+                                <button>Shop now</button>
+                            </div>
+                            <div class="image">
+                                <img src="image/vegt.png" alt="Vegetables">
+                            </div>
+                        </div>
+
+                        <div class="box-vegt">
+                            <div class="text">
+                                <span>75% off for 2 hours</span>
+                                <h3>Natural Tomato</h3>
+                                <button>Shop now</button>
+                            </div>
+                            <div class="image">
+                                <img src="image/vegt2.png" alt="Tomato">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="big-boxvegt">
+                        <div class="image">
+                            <img src="image/vegt3.png" alt="Vegetables Offer">
+                        </div>
+                        <div class="text-content">
+                            <span>50% off for 14 days</span>
+                            <h3>Order your Favorite categories</h3>
+                            <button>Shop now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Popular Items Grid -->
+                <div class="content">
+                    <h1>Popular Items</h1>
+                    <div class="all-box">
+                        <div class="box-content" data-price="12$">
+                            <img src="image/zaton.png" alt="Koromcha">
+                            <span>Koromcha</span>
+                        </div>
+                        <div class="box-content" data-price="31$">
+                            <img src="image/appel.png" alt="Green Apple">
+                            <span>Green Apple</span>
+                        </div>
+                        <div class="box-content" data-price="55$">
+                            <img src="image/mango.png" alt="Mango">
+                            <span>Mango</span>
+                        </div>
+                        <div class="box-content" data-price="18$">
+                            <img src="image/lamon.png" alt="Lemon">
+                            <span>Lemon</span>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+</body>
+</html>
