@@ -16,7 +16,7 @@ A modern, responsive dashboard interface for a grocery and fresh categories stor
 - **Google Fonts** (Cairo)
   
 ## 🚀 Live Demo
-(https://mohamedalbasiony.github.io/Food-landing-page/)
+(https://mohamedalbasiony.github.io/Grocery-Categories-Dashboard/)
 
 ## 👤 Author
 - **Mohamed Albadiony**
